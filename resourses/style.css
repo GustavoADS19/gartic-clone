@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#canvas {
+    border: 3px solid black;
+}
+h1 {
+    text-align: center;
+    text-shadow: 7px gray; 
+}
+ul li {
+    display: inline-block;
+    text-align: center;
+}
+.button {
+    
+    color: red;
+    background-color: black;
+    padding: 5px;
+}
