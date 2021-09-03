@@ -1,10 +1,10 @@
 window.addEventListener('load', () => {
     const canvas = document.querySelector("#canvas");
     const ctx = canvas.getContext("2d");
-    const button1 = document.querySelector(".button1");
-    const button2 = document.querySelector(".button2");
-    const button3 = document.querySelector(".button3");
-    const button4 = document.querySelector(".button4");
+    const button1 = document.querySelector("#button1");
+    const button2 = document.querySelector("#button2");
+    const button3 = document.querySelector("#button3");
+    const button4 = document.querySelector("#button4");
     var lineSize = 10;
     var cr = "black";
     
@@ -47,10 +47,10 @@ window.addEventListener('load', () => {
         ctx.strokeStyle = cr;
         
 
-        ctx.lineTo(e.clientX, e.clientY);
+        ctx.lineTo(e.clientX, e.clientY-40);
         ctx.stroke();
         ctx.beginPath();
-        ctx.moveTo(e.clientX, e.clientY);
+        ctx.moveTo(e.clientX, e.clientY-40);
     
     }
 
