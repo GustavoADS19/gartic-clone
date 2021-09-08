@@ -2,21 +2,42 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    position: relative;
 }
 #canvas {
-    border: 3px solid black;
+    border: 3px solid red;
+    background-color: wheat;
+    height: auto;
+    width: auto;
 }
 h1 {
     text-align: center;
     text-shadow: 7px gray; 
+    color: red;
 }
 ul li {
     display: inline-block;
-    text-align: center;
+    margin-left: 25px;
+    color: red;
 }
+#rd {
+    margin-left: 700px; 
+    background-color: aliceblue;
+}
+#rd {
+    background-color: white;
+    padding: 10px;
+    color: black;
+    font-weight: 300;
+}
+
 .button {
     
-    color: red;
-    background-color: black;
+    color: black;
+    background-color: gray;
     padding: 5px;
+
+}
+body {
+    background-color: black;
 }
