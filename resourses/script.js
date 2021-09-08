@@ -13,7 +13,7 @@ window.addEventListener('load', () => {
     var cr = "black";
     
     canvas.height = 650;
-    canvas.width = innerWidth - 20;
+    canvas.width = innerWidth - 19;
     
     let painting = false;
 
